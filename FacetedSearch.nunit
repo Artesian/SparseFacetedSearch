@@ -1,8 +1,0 @@
-﻿<NUnitProject>
-  <Settings activeconfig="Debug" />
-  <Config name="Debug" binpathtype="Auto">
-    <assembly path="SparseFacetedSearch.Test\bin\Debug\Lucene.Net.Search.SparseFacetedSearch.Test.dll" />
-    <assembly path="..\2_9_4g\build\bin\contrib\SimpleFacetedSearch\Debug\Lucene.Net.Search.SimpleFacetedSearch.Test.dll" />
-  </Config>
-  <Config name="Release" binpathtype="Auto" />
-</NUnitProject>

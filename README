@@ -1,0 +1,14 @@
+Based on SimpleFacetedSearch. Uses DocID lists instead on bitmaps.
+Efficient memory usage for high cardinality sparsely populated facets.
+
+Suitable for high cardinality, sparsely populated facets.
+i.e. There are a large number of facet values and each facet value is hit in a small percentage of documents. Especially if there are also a large number of documents.
+SimpleFacetedSearch holds a bitmap for each value representing whether that value is a hit is each document (approx 122KB per 1M documents per facet value).
+So this is an O(N*M) problem. The memory requirement can grow very quickly.
+
+SparseFacetedSearcher records the DocID (Int32) for each value hit (memory cost = values * hits * 4).
+SimpleFacetedSearch record a bit for every document per value (memory cost = values * documents / 8).
+So if the average number of documents hit for each value is less than 1/32 or 3.125% then Sparse is more memory efficient.
+
+There are also some enumerable methods than mean there is much less pressure on the GC.
+Plus some bug fixes.

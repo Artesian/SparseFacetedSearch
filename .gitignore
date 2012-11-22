@@ -1,5 +1,12 @@
-/*.user
-/*.suo
-bin/
-obj/
-_ReSharper.*
+bin
+Bin
+obj
+*.user
+*.suo
+*.bak
+*.vs10x
+*.VisualState.xml
+*.userprefs
+*.pidb
+test-results
+_ReSharper*

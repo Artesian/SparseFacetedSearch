@@ -1,0 +1,7 @@
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\bin\Release\Lucene.Net.Search.SparseFacetedSearch.xml
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\bin\Release\Lucene.Net.Search.SparseFacetedSearch.dll
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\bin\Release\Lucene.Net.Search.SparseFacetedSearch.pdb
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\bin\Release\Lucene.Net.dll
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\bin\Release\Lucene.Net.xml
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\obj\Release\Lucene.Net.Search.SparseFacetedSearch.dll
+D:\projects\lucene.net\SparseFacetedSearch\SparseFacetedSearch\obj\Release\Lucene.Net.Search.SparseFacetedSearch.pdb

@@ -16,6 +16,7 @@
  */
 
 using System;
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,7 @@ namespace Lucene.Net.Search
 	/// <summary>
 	/// Represents the Documents containing a facet value
 	/// </summary>
+	[DebuggerDisplay("{Name}")]
 	public class FacetHits : IEnumerable<Document>
 	{
 		IndexReader reader;

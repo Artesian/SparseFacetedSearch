@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseFacetedSearch", "SparseFacetedSearch\SparseFacetedSearch.csproj", "{67FE9467-F214-41D8-91FF-DEBAFC77AEB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseFacetedSearch.Test", "SparseFacetedSearch.Test\SparseFacetedSearch.Test.csproj", "{57A72A8E-A31C-45AF-9546-526AB3553059}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseFacetedSearch", "SparseFacetedSearch.csproj", "{67FE9467-F214-41D8-91FF-DEBAFC77AEB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		{67FE9467-F214-41D8-91FF-DEBAFC77AEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67FE9467-F214-41D8-91FF-DEBAFC77AEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FE9467-F214-41D8-91FF-DEBAFC77AEB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57A72A8E-A31C-45AF-9546-526AB3553059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57A72A8E-A31C-45AF-9546-526AB3553059}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57A72A8E-A31C-45AF-9546-526AB3553059}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57A72A8E-A31C-45AF-9546-526AB3553059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

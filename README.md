@@ -8,13 +8,13 @@ i.e. There are a large number of facet values and each facet value is hit in a s
 SimpleFacetedSearch holds a bitmap for each value representing whether that value is a hit in each document (approx 122KB per 1M documents per facet value).
 ### Memory requirements ###
 fn(Simple):
-![equation](http://latex.codecogs.com/gif.latex?\frac{dv}{8})
+![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bdv%7D%7B8%7D)
 bytes
 
 Memory increases as the product of documents * values
 
 fn(Sparse):
-![equation](http://latex.codecogs.com/gif.latex?4\sum_{n=1..d}^{v}{h}_{v})
+![equation](http://latex.codecogs.com/gif.latex?4%5Csum_%7Bn%3D1%7D%5E%7Bv%7D%7Bh%7D_%7Bv%7D__%7Bn%7D)
 bytes
 
 Memory increases in relation to the number of hits only.

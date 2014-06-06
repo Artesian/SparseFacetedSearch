@@ -1,6 +1,5 @@
-bin
-Bin
-obj
+[Bb]in/
+[Oo]bj/
 *.user
 *.suo
 *.bak
